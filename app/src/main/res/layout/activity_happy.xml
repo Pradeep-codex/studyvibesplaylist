@@ -9,7 +9,7 @@
     android:padding="16dp">
     <ImageButton
         android:id="@+id/backBtn"
-        android:layout_width="40dp"
+        android:layout_width="41dp"
         android:layout_height="40dp"
         android:layout_margin="16dp"
         android:background="@android:color/darker_gray"
