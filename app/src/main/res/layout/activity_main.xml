@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".MainActivity">
+
+    <!-- Background overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <!-- Actual content -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/logoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Focus Beats"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/design"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="24dp"
+           />
+        <TextView
+            android:id="@+id/taglineBelowLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoText"
+            android:layout_alignStart="@id/logoText"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/design"
+            android:text="Set your mood. Sync your groove."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"/>
+
+
+        <TextView
+            android:id="@+id/taglineText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tune your vibe, pick your mood."
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/main_font"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="80dp"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp"
+            android:background="#33FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/moodSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taglineText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/main_font"
+            android:background="@drawable/spinner_background"
+            android:padding="24dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

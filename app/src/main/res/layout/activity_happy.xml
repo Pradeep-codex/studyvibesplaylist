@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/musicScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_pg"
+    android:padding="16dp">
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:background="@android:color/darker_gray"
+        android:src="@drawable/home"
+        android:contentDescription="Back"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:id="@+id/nowPlayingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Mood Playlist"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <LinearLayout
+        android:id="@+id/songListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nowPlayingTitle"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:padding="12dp"
+            android:background="#80696969"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:elevation="9dp">
+
+            <TextView
+                android:id="@+id/songTitle1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Song Title 1"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/playButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#80696969"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/songTitle2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Song Title 2"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/playButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#80696969"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/songTitle3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Song Title 3"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/playButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#80696969"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/songTitle4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Song Title 4"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/playButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#80696969"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/songTitle5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Song Title 5"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/playButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#80696969"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/songTitle6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Song Title 6"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/playButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#80696969"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/songTitle7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Song Title 7"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/playButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <!-- Music Control Buttons -->
+    <LinearLayout
+        android:id="@+id/controlButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- SeekBar and Time -->
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressTint="#1DB954"
+            android:thumbTint="#1DB954"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00 / 03:30"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Play / Pause / Next / Prev Buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/prevBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_previous"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF"
+                android:layout_marginEnd="24dp" />
+
+            <ImageButton
+                android:id="@+id/playPauseBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_next"
+                android:background="@android:color/transparent"
+                android:tint="#FFFFFF"
+                android:layout_marginStart="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
